@@ -1,0 +1,996 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AB40AEF2C3CD3B600D59B6E /* Captain_s_QuartersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB40AEE2C3CD3B600D59B6E /* Captain_s_QuartersApp.swift */; };
+		3AB40AF12C3CD3B600D59B6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB40AF02C3CD3B600D59B6E /* ContentView.swift */; };
+		3AB40AF32C3CD3B600D59B6E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB40AF22C3CD3B600D59B6E /* Item.swift */; };
+		3AB40AF52C3CD3B700D59B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB40AF42C3CD3B700D59B6E /* Assets.xcassets */; };
+		3AB40AF92C3CD3B700D59B6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB40AF82C3CD3B700D59B6E /* Preview Assets.xcassets */; };
+		3AB40B032C3CD3B800D59B6E /* Captain_s_QuartersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB40B022C3CD3B800D59B6E /* Captain_s_QuartersTests.swift */; };
+		3AB40B0D2C3CD3B800D59B6E /* Captain_s_QuartersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB40B0C2C3CD3B800D59B6E /* Captain_s_QuartersUITests.swift */; };
+		3AB40B0F2C3CD3B800D59B6E /* Captain_s_QuartersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB40B0E2C3CD3B800D59B6E /* Captain_s_QuartersUITestsLaunchTests.swift */; };
+		3AB40B1C2C3CD48E00D59B6E /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB40B1B2C3CD48E00D59B6E /* Character.swift */; };
+		3AB40B1E2C3CF05800D59B6E /* Corporation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB40B1D2C3CF05800D59B6E /* Corporation.swift */; };
+		3AB40B202C3CF15400D59B6E /* Alliance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB40B1F2C3CF15400D59B6E /* Alliance.swift */; };
+		3AB40B222C3CF8F000D59B6E /* EveSSO in Resources */ = {isa = PBXBuildFile; fileRef = 3AB40B212C3CF8F000D59B6E /* EveSSO */; };
+		3AB40B2E2C3D029C00D59B6E /* local.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3AB40B2D2C3D029C00D59B6E /* local.xcconfig */; };
+		3AB40B332C3D08CE00D59B6E /* EveSSO in Frameworks */ = {isa = PBXBuildFile; productRef = 3AB40B322C3D08CE00D59B6E /* EveSSO */; };
+		3AB40B342C3D0A9600D59B6E /* EveSSO in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 3AB40B322C3D08CE00D59B6E /* EveSSO */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3AB40B382C3D0E2A00D59B6E /* EveSSO in Frameworks */ = {isa = PBXBuildFile; productRef = 3AB40B372C3D0E2A00D59B6E /* EveSSO */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AB40AFF2C3CD3B700D59B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB40AE32C3CD3B600D59B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB40AEA2C3CD3B600D59B6E;
+			remoteInfo = "Captain's Quarters";
+		};
+		3AB40B092C3CD3B800D59B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB40AE32C3CD3B600D59B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB40AEA2C3CD3B600D59B6E;
+			remoteInfo = "Captain's Quarters";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3AB40B352C3D0A9600D59B6E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3AB40B342C3D0A9600D59B6E /* EveSSO in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3AB40AEB2C3CD3B600D59B6E /* Captain's Quarters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Captain's Quarters.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB40AEE2C3CD3B600D59B6E /* Captain_s_QuartersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Captain_s_QuartersApp.swift; sourceTree = "<group>"; };
+		3AB40AF02C3CD3B600D59B6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AB40AF22C3CD3B600D59B6E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3AB40AF42C3CD3B700D59B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AB40AF62C3CD3B700D59B6E /* Captain_s_Quarters.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Captain_s_Quarters.entitlements; sourceTree = "<group>"; };
+		3AB40AF82C3CD3B700D59B6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AB40AFE2C3CD3B700D59B6E /* Captain's QuartersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Captain's QuartersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB40B022C3CD3B800D59B6E /* Captain_s_QuartersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Captain_s_QuartersTests.swift; sourceTree = "<group>"; };
+		3AB40B082C3CD3B800D59B6E /* Captain's QuartersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Captain's QuartersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB40B0C2C3CD3B800D59B6E /* Captain_s_QuartersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Captain_s_QuartersUITests.swift; sourceTree = "<group>"; };
+		3AB40B0E2C3CD3B800D59B6E /* Captain_s_QuartersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Captain_s_QuartersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AB40B1B2C3CD48E00D59B6E /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		3AB40B1D2C3CF05800D59B6E /* Corporation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Corporation.swift; sourceTree = "<group>"; };
+		3AB40B1F2C3CF15400D59B6E /* Alliance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alliance.swift; sourceTree = "<group>"; };
+		3AB40B212C3CF8F000D59B6E /* EveSSO */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = EveSSO; sourceTree = "<group>"; };
+		3AB40B2D2C3D029C00D59B6E /* local.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = local.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AB40AE82C3CD3B600D59B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB40B332C3D08CE00D59B6E /* EveSSO in Frameworks */,
+				3AB40B382C3D0E2A00D59B6E /* EveSSO in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB40AFB2C3CD3B700D59B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB40B052C3CD3B800D59B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AB40AE22C3CD3B600D59B6E = {
+			isa = PBXGroup;
+			children = (
+				3AB40AED2C3CD3B600D59B6E /* Captain's Quarters */,
+				3AB40B012C3CD3B800D59B6E /* Captain's QuartersTests */,
+				3AB40B0B2C3CD3B800D59B6E /* Captain's QuartersUITests */,
+				3AB40B212C3CF8F000D59B6E /* EveSSO */,
+				3AB40AEC2C3CD3B600D59B6E /* Products */,
+				3AB40B312C3D08CE00D59B6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AB40AEC2C3CD3B600D59B6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AB40AEB2C3CD3B600D59B6E /* Captain's Quarters.app */,
+				3AB40AFE2C3CD3B700D59B6E /* Captain's QuartersTests.xctest */,
+				3AB40B082C3CD3B800D59B6E /* Captain's QuartersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AB40AED2C3CD3B600D59B6E /* Captain's Quarters */ = {
+			isa = PBXGroup;
+			children = (
+				3AB40AEE2C3CD3B600D59B6E /* Captain_s_QuartersApp.swift */,
+				3AB40AF02C3CD3B600D59B6E /* ContentView.swift */,
+				3AB40AF22C3CD3B600D59B6E /* Item.swift */,
+				3AB40B1B2C3CD48E00D59B6E /* Character.swift */,
+				3AB40B1F2C3CF15400D59B6E /* Alliance.swift */,
+				3AB40B1D2C3CF05800D59B6E /* Corporation.swift */,
+				3AB40AF42C3CD3B700D59B6E /* Assets.xcassets */,
+				3AB40AF62C3CD3B700D59B6E /* Captain_s_Quarters.entitlements */,
+				3AB40AF72C3CD3B700D59B6E /* Preview Content */,
+				3AB40B2D2C3D029C00D59B6E /* local.xcconfig */,
+			);
+			path = "Captain's Quarters";
+			sourceTree = "<group>";
+		};
+		3AB40AF72C3CD3B700D59B6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3AB40AF82C3CD3B700D59B6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AB40B012C3CD3B800D59B6E /* Captain's QuartersTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB40B022C3CD3B800D59B6E /* Captain_s_QuartersTests.swift */,
+			);
+			path = "Captain's QuartersTests";
+			sourceTree = "<group>";
+		};
+		3AB40B0B2C3CD3B800D59B6E /* Captain's QuartersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB40B0C2C3CD3B800D59B6E /* Captain_s_QuartersUITests.swift */,
+				3AB40B0E2C3CD3B800D59B6E /* Captain_s_QuartersUITestsLaunchTests.swift */,
+			);
+			path = "Captain's QuartersUITests";
+			sourceTree = "<group>";
+		};
+		3AB40B312C3D08CE00D59B6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AB40AEA2C3CD3B600D59B6E /* Captain's Quarters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB40B122C3CD3B800D59B6E /* Build configuration list for PBXNativeTarget "Captain's Quarters" */;
+			buildPhases = (
+				3AB40AE72C3CD3B600D59B6E /* Sources */,
+				3AB40AE82C3CD3B600D59B6E /* Frameworks */,
+				3AB40AE92C3CD3B600D59B6E /* Resources */,
+				3AB40B352C3D0A9600D59B6E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Captain's Quarters";
+			packageProductDependencies = (
+				3AB40B322C3D08CE00D59B6E /* EveSSO */,
+				3AB40B372C3D0E2A00D59B6E /* EveSSO */,
+			);
+			productName = "Captain's Quarters";
+			productReference = 3AB40AEB2C3CD3B600D59B6E /* Captain's Quarters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AB40AFD2C3CD3B700D59B6E /* Captain's QuartersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB40B152C3CD3B800D59B6E /* Build configuration list for PBXNativeTarget "Captain's QuartersTests" */;
+			buildPhases = (
+				3AB40AFA2C3CD3B700D59B6E /* Sources */,
+				3AB40AFB2C3CD3B700D59B6E /* Frameworks */,
+				3AB40AFC2C3CD3B700D59B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB40B002C3CD3B700D59B6E /* PBXTargetDependency */,
+			);
+			name = "Captain's QuartersTests";
+			productName = "Captain's QuartersTests";
+			productReference = 3AB40AFE2C3CD3B700D59B6E /* Captain's QuartersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AB40B072C3CD3B800D59B6E /* Captain's QuartersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB40B182C3CD3B800D59B6E /* Build configuration list for PBXNativeTarget "Captain's QuartersUITests" */;
+			buildPhases = (
+				3AB40B042C3CD3B800D59B6E /* Sources */,
+				3AB40B052C3CD3B800D59B6E /* Frameworks */,
+				3AB40B062C3CD3B800D59B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB40B0A2C3CD3B800D59B6E /* PBXTargetDependency */,
+			);
+			name = "Captain's QuartersUITests";
+			productName = "Captain's QuartersUITests";
+			productReference = 3AB40B082C3CD3B800D59B6E /* Captain's QuartersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AB40AE32C3CD3B600D59B6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3AB40AEA2C3CD3B600D59B6E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					3AB40AFD2C3CD3B700D59B6E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3AB40AEA2C3CD3B600D59B6E;
+					};
+					3AB40B072C3CD3B800D59B6E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3AB40AEA2C3CD3B600D59B6E;
+					};
+				};
+			};
+			buildConfigurationList = 3AB40AE62C3CD3B600D59B6E /* Build configuration list for PBXProject "Captain's Quarters" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AB40AE22C3CD3B600D59B6E;
+			packageReferences = (
+				3AB40B362C3D0E2A00D59B6E /* XCLocalSwiftPackageReference "EveSSO" */,
+			);
+			productRefGroup = 3AB40AEC2C3CD3B600D59B6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AB40AEA2C3CD3B600D59B6E /* Captain's Quarters */,
+				3AB40AFD2C3CD3B700D59B6E /* Captain's QuartersTests */,
+				3AB40B072C3CD3B800D59B6E /* Captain's QuartersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AB40AE92C3CD3B600D59B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB40B2E2C3D029C00D59B6E /* local.xcconfig in Resources */,
+				3AB40B222C3CF8F000D59B6E /* EveSSO in Resources */,
+				3AB40AF92C3CD3B700D59B6E /* Preview Assets.xcassets in Resources */,
+				3AB40AF52C3CD3B700D59B6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB40AFC2C3CD3B700D59B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB40B062C3CD3B800D59B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AB40AE72C3CD3B600D59B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB40AF12C3CD3B600D59B6E /* ContentView.swift in Sources */,
+				3AB40AF32C3CD3B600D59B6E /* Item.swift in Sources */,
+				3AB40AEF2C3CD3B600D59B6E /* Captain_s_QuartersApp.swift in Sources */,
+				3AB40B1C2C3CD48E00D59B6E /* Character.swift in Sources */,
+				3AB40B202C3CF15400D59B6E /* Alliance.swift in Sources */,
+				3AB40B1E2C3CF05800D59B6E /* Corporation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB40AFA2C3CD3B700D59B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB40B032C3CD3B800D59B6E /* Captain_s_QuartersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB40B042C3CD3B800D59B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB40B0F2C3CD3B800D59B6E /* Captain_s_QuartersUITestsLaunchTests.swift in Sources */,
+				3AB40B0D2C3CD3B800D59B6E /* Captain_s_QuartersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AB40B002C3CD3B700D59B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB40AEA2C3CD3B600D59B6E /* Captain's Quarters */;
+			targetProxy = 3AB40AFF2C3CD3B700D59B6E /* PBXContainerItemProxy */;
+		};
+		3AB40B0A2C3CD3B800D59B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB40AEA2C3CD3B600D59B6E /* Captain's Quarters */;
+			targetProxy = 3AB40B092C3CD3B800D59B6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AB40B102C3CD3B800D59B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AB40B112C3CD3B800D59B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3AB40B132C3CD3B800D59B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Captain's Quarters/Captain_s_Quarters.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Captain's Quarters/Preview Content\"";
+				DEVELOPMENT_TEAM = Y5F4NXR9M5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trashpandatechnologies.Captain-s-Quarters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3AB40B142C3CD3B800D59B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Captain's Quarters/Captain_s_Quarters.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Captain's Quarters/Preview Content\"";
+				DEVELOPMENT_TEAM = Y5F4NXR9M5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trashpandatechnologies.Captain-s-Quarters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		3AB40B162C3CD3B800D59B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5F4NXR9M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trashpandatechnologies.Captain-s-QuartersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Captain's Quarters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Captain's Quarters";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3AB40B172C3CD3B800D59B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5F4NXR9M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trashpandatechnologies.Captain-s-QuartersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Captain's Quarters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Captain's Quarters";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		3AB40B192C3CD3B800D59B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5F4NXR9M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trashpandatechnologies.Captain-s-QuartersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Captain's Quarters";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3AB40B1A2C3CD3B800D59B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5F4NXR9M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trashpandatechnologies.Captain-s-QuartersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Captain's Quarters";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		3AB40B232C3CFE3F00D59B6E /* LOCAL-Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "LOCAL-Debug";
+		};
+		3AB40B242C3CFE3F00D59B6E /* LOCAL-Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB40B2D2C3D029C00D59B6E /* local.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Captain's Quarters/Captain_s_Quarters.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Captain's Quarters/Preview Content\"";
+				DEVELOPMENT_TEAM = Y5F4NXR9M5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trashpandatechnologies.Captain-s-Quarters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = "LOCAL-Debug";
+		};
+		3AB40B252C3CFE3F00D59B6E /* LOCAL-Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5F4NXR9M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trashpandatechnologies.Captain-s-QuartersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Captain's Quarters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Captain's Quarters";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = "LOCAL-Debug";
+		};
+		3AB40B262C3CFE3F00D59B6E /* LOCAL-Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5F4NXR9M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trashpandatechnologies.Captain-s-QuartersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Captain's Quarters";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = "LOCAL-Debug";
+		};
+		3AB40B272C3CFE7500D59B6E /* Local-Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = "Local-Release";
+		};
+		3AB40B282C3CFE7500D59B6E /* Local-Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Captain's Quarters/Captain_s_Quarters.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Captain's Quarters/Preview Content\"";
+				DEVELOPMENT_TEAM = Y5F4NXR9M5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trashpandatechnologies.Captain-s-Quarters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = "Local-Release";
+		};
+		3AB40B292C3CFE7500D59B6E /* Local-Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5F4NXR9M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trashpandatechnologies.Captain-s-QuartersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Captain's Quarters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Captain's Quarters";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = "Local-Release";
+		};
+		3AB40B2A2C3CFE7500D59B6E /* Local-Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5F4NXR9M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trashpandatechnologies.Captain-s-QuartersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Captain's Quarters";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = "Local-Release";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AB40AE62C3CD3B600D59B6E /* Build configuration list for PBXProject "Captain's Quarters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB40B102C3CD3B800D59B6E /* Debug */,
+				3AB40B232C3CFE3F00D59B6E /* LOCAL-Debug */,
+				3AB40B112C3CD3B800D59B6E /* Release */,
+				3AB40B272C3CFE7500D59B6E /* Local-Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB40B122C3CD3B800D59B6E /* Build configuration list for PBXNativeTarget "Captain's Quarters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB40B132C3CD3B800D59B6E /* Debug */,
+				3AB40B242C3CFE3F00D59B6E /* LOCAL-Debug */,
+				3AB40B142C3CD3B800D59B6E /* Release */,
+				3AB40B282C3CFE7500D59B6E /* Local-Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB40B152C3CD3B800D59B6E /* Build configuration list for PBXNativeTarget "Captain's QuartersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB40B162C3CD3B800D59B6E /* Debug */,
+				3AB40B252C3CFE3F00D59B6E /* LOCAL-Debug */,
+				3AB40B172C3CD3B800D59B6E /* Release */,
+				3AB40B292C3CFE7500D59B6E /* Local-Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB40B182C3CD3B800D59B6E /* Build configuration list for PBXNativeTarget "Captain's QuartersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB40B192C3CD3B800D59B6E /* Debug */,
+				3AB40B262C3CFE3F00D59B6E /* LOCAL-Debug */,
+				3AB40B1A2C3CD3B800D59B6E /* Release */,
+				3AB40B2A2C3CFE7500D59B6E /* Local-Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3AB40B362C3D0E2A00D59B6E /* XCLocalSwiftPackageReference "EveSSO" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = EveSSO;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3AB40B322C3D08CE00D59B6E /* EveSSO */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EveSSO;
+		};
+		3AB40B372C3D0E2A00D59B6E /* EveSSO */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EveSSO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3AB40AE32C3CD3B600D59B6E /* Project object */;
+}
